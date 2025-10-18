@@ -46,4 +46,4 @@ This project is a dynamic E-commerce web application that sells Dim Sum.
 
 ## Design and Prototype
 
-[Link to Figma](https://www.figma.com/design/JP64jvvgcEihcjTY9Yq5db/IDM-364?node-id=0-1&t=aq5Q5VonKxvPxKAx-1)
+[Link to Figma](https://www.figma.com/design/JP64jvvgcEihcjTY9Yq5db/IDM-232-364?node-id=0-1&t=28hsupK8yixwnFFE-1)
