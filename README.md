@@ -49,3 +49,25 @@ This is a website that mimics selling discounted plane tickets.
         - Service fees
         - Surcharges
     - "Non-refundable. No changes allowed after purchase."
+
+### Card layout
+
+- Destination photograph
+- Metropolitan areas connected by the flight
+- IATA codes of both airports
+- Departure & arrival times
+- Time zones for the origin and the destination
+- Duration
+- "+1" icon for day change on arrival
+- Red-eye alert
+- Operating carrier
+    - "Operated by"
+- Marketing airlines & codeshare information
+- Flight numbers
+- Low historic on-time performance alert
+- Icon set for baggage information
+    - Personal item rules
+    - Carry-on allowance
+    - Checked baggage allowance included in the ticket
+    - Airport purchase allowed?
+- Full fare
