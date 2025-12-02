@@ -13,11 +13,14 @@ This is a website that mimics selling discounted plane tickets.
 
 ## Plane Ticket Structure
 
+- Disclaimer
+    - "*Airlines may change schedules, aircraft, baggage rules, or operating carriers after booking.* Schedule, aircraft, baggage policies, and operating carrier are subject to change by the airline after ticketing. This website is not responsible for airline-initiated changes. For reimbursement or support, contact the operating carrier."
 - Origin & destination
     - Banner photographs (P)
     - Metropolitan area (P)
     - IATA codes (P)
-    - Terminals
+        - Airport full names
+    - Terminals (TBD?)
 - Departure & arrival times
     - Time zones (P)
     - Duration (P)
@@ -26,27 +29,23 @@ This is a website that mimics selling discounted plane tickets.
 - Carrier
     - Operating carrier (P)
         - Alliance membership
-    - Marketing airlines & codeshare information
+        - "Operated by" (P)
+    - Marketing airlines & codeshare information (P/secondary)
     - Flight numbers (P)
     - Low historic on-time performance alert (P/footnote)
-- Equipment
-    - Aircraft type
-    - Airline/aircraft reliability
-    - Riding experience
-        - Seat layout
-        - Seat pitch/width
-        - Power outlets/USB ports
-- Baggage rules
-    - Personal item rules
-    - Carry-on allowance
+    - Aircraft type (TBD?)
+- Baggage
+    - Personal item rules (P/icon)
+    - Carry-on allowance (P/icon)
     - Checked baggage allowance included in the ticket (P/icon)
+    - Airport purchase allowed? (P/icon)
     - "To purchase more checked baggage plans, please contact the operating carrier after your purchase."
     - "For more baggage information, visit the operating carrier's website."
 - Fare
     - Full fare (P)
         - Base fare
-        - Fuel surcharge (YQ/YR)
+        - Fuel surcharge
         - Airport taxes & fees
-        - Service fees (OTA or airline)
-        - Payment card surcharges (some airlines/regions)
-    - "Passengers book tickets on this website on their personal behalves. This site is not responsible for any iterations made by the airline companies. For reimbursement conditions, visit the operating carrier's website."
+        - Service fees
+        - Surcharges
+    - "Non-refundable. No changes allowed after purchase."
