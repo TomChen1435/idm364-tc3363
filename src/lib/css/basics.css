@@ -31,9 +31,16 @@ p, li {
 
 /* Color */
 
+:root {
+    --black0: oklab(0.01 0 0);
+    --white0: oklab(0.99 0 0);
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --apple-red: rgb(255,56,60);
+        --apple-orange: rgb(255,141,40);
+        --apple-yellow: rgb(255,204,0);
         --apple-blue: rgb(0,136,255);
         --apple-indigo: rgb(97,85,245);
 
@@ -42,14 +49,16 @@ p, li {
         --ios-gray-6: rgb(242,242,247);
         --ios-gray-6-alt: rgb(28,28,30);
 
-        --black: oklab(0.01 0 0);
-        --white: oklab(0.99 0 0);
+        --black: var(--black0);
+        --white: var(--white0);
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --apple-red: rgb(255,66,69);
+        --apple-orange: rgb(255,146,48);
+        --apple-yellow: rgb(255,214,0);
         --apple-blue: rgb(0,145,255);
         --apple-indigo: rgb(109,124,255);
 
@@ -58,8 +67,8 @@ p, li {
         --ios-gray-6: rgb(28,28,30);
         --ios-gray-6-alt: rgb(242,242,247);
 
-        --black: oklab(0.99 0 0);
-        --white: oklab(0.01 0 0);
+        --black: var(--white0);
+        --white: var(--black0);
     }
 }
 
@@ -96,4 +105,31 @@ body {
 body, body * {
     transition-duration: 250ms;
     transition-timing-function: ease-in-out;
+}
+
+/* Main */
+
+main {
+    display: grid;
+    gap: var(--gap12);
+    grid-template-columns: 1fr;
+    padding: var(--gap12);
+    width: 100%;
+}
+
+/* Header & Footer */
+
+header, footer {
+    align-items: center;
+    background-color: var(--black);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: var(--gap8) var(--gap12);
+    width: 100%;
+}
+
+/* Elements */
+
+a {
+    text-decoration: none;
 }
