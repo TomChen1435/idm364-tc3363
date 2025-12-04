@@ -1,23 +1,5 @@
 <script>
-    let service = "Northeast Regional";
-    let train_number = 999;
-    let origin = {
-        state: "PA",
-        city: "Cornwells Heights",
-        station: "Cornwells Heights"
-    };
-    let destination = {
-        state: "PA",
-        city: "Philadelphia",
-        station: "North Philadelphia"
-    };
-    let departure_time_8601 = "2025-07-03T08:00:00-04:00";
-    let departure_time = "08:00";
-    let arrival_time_8601 = "2025-07-03T08:35:00-04:00";
-    let arrival_time = "08:35";
-    let duration = "0h 35min";
-    let seat_class = "Business";
-    let price_usd = 999;
+    let { service, train_number, origin_state, origin_city, origin_station, destination_state, destination_city, destination_station, departure_time, arrival_time, duration, seat_class, price_usd } = $props();
 </script>
 
 <section class="card">
@@ -25,16 +7,16 @@
     <section class="station origin">
         <div class="tertiary">
             <p class="direction">FROM</p>
-            <p class="location">{origin.city}, {origin.state}</p>
+            <p class="location">{origin_city}, {origin_state}</p>
         </div>
-        <h2 class="station_name">{origin.station}</h2>
+        <h2 class="station_name">{origin_station}</h2>
     </section>
     <section class="station destination">
         <div class="tertiary">
             <p class="direction">TO</p>
-            <p class="location">{destination.city}, {destination.state}</p>
+            <p class="location">{destination_city}, {destination_state}</p>
         </div>
-        <h2 class="station_name">{destination.station}</h2>
+        <h2 class="station_name">{destination_station}</h2>
     </section>
     <section class="times">
         <div class="major departure">
