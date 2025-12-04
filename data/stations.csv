@@ -1,0 +1,32 @@
+state,city,station,station_code,amtrak_service
+MA,Boston,South Station,BOS,Acela_DIVIDE_Northeast Regional
+MA,Boston,Back Bay,BBY,Acela_DIVIDE_Northeast Regional
+MA,Westwood,Route 128,RTE,Acela_DIVIDE_Northeast Regional
+RI,Providence,Providence,PVD,Acela_DIVIDE_Northeast Regional
+RI,West Kingston,Kingston,KIN,Northeast Regional
+RI,Westerly,Westerly,WLY,Northeast Regional
+CT,Stonington,Mystic,MYS,Northeast Regional
+CT,New London,Union Station,NLC,Acela_DIVIDE_Northeast Regional
+CT,Old Saybrook,Old Saybrook,OSB,Northeast Regional
+CT,New Haven,State Street,STS,Northeast Regional
+CT,New Haven,Union Station,NHV,Acela_DIVIDE_Northeast Regional
+CT,Bridgeport,Bridgeport,BRP,Northeast Regional
+CT,Stamford,Stamford Transportation Center,STM,Acela_DIVIDE_Northeast Regional
+NY,New Rochelle,New Rochelle,NRO,Northeast Regional
+NY,New York,Penn Station,NYP,Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service
+NJ,Newark,Penn Station,NWK,Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service
+NJ,Newark,Newark Airport,EWR,Northeast Regional_DIVIDE_Keystone Service
+NJ,Woodbridge,Metropark,MET,Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service
+NJ,New Brunswick,New Brunswick,NBK,Northeast Regional_DIVIDE_Keystone Service
+NJ,West Windsor,Princeton Junction,PJC,Northeast Regional_DIVIDE_Keystone Service
+NJ,Trenton,Trenton Transit Center,TRE,Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service
+PA,Cornwells Heights,Cornwells Heights,CWH,Northeast Regional_DIVIDE_Keystone Service
+PA,Philadelphia,North Philadelphia,PHN,Northeast Regional_DIVIDE_Keystone Service
+PA,Philadelphia,30th Street,PHL,Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service
+DE,Wilmington,Wilmington,WIL,Acela_DIVIDE_Northeast Regional
+DE,Newark,Newark,NRK,Northeast Regional
+MD,Aberdeen,Aberdeen,ABE,Northeast Regional
+MD,Baltimore,Penn Station,BAL,Acela_DIVIDE_Northeast Regional
+MD,Linthicum,BWI Airport,BWI,Acela_DIVIDE_Northeast Regional
+MD,New Carrollton,New Carrollton,NCR,Northeast Regional
+DC,Washington,Union Station,WAS,Acela_DIVIDE_Northeast Regional

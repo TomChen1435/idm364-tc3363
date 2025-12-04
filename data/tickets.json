@@ -1,0 +1,482 @@
+[
+    {
+        "train_number": 801,
+        "service": "Northeast Regional",
+        "origin_code": "BOS",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 19
+    },
+    {
+        "train_number": 901,
+        "service": "Acela",
+        "origin_code": "BOS",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:28:00-04:00",
+        "class": "Business",
+        "price_usd": 39
+    },
+    {
+        "train_number": 803,
+        "service": "Northeast Regional",
+        "origin_code": "BOS",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 19
+    },
+    {
+        "train_number": 811,
+        "service": "Northeast Regional",
+        "origin_code": "PVD",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:40:00-04:00",
+        "class": "Coach",
+        "price_usd": 17
+    },
+    {
+        "train_number": 911,
+        "service": "Acela",
+        "origin_code": "PVD",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:34:00-04:00",
+        "class": "Business",
+        "price_usd": 32
+    },
+    {
+        "train_number": 813,
+        "service": "Northeast Regional",
+        "origin_code": "PVD",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:40:00-04:00",
+        "class": "Coach",
+        "price_usd": 17
+    },
+    {
+        "train_number": 821,
+        "service": "Northeast Regional",
+        "origin_code": "NLC",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 13
+    },
+    {
+        "train_number": 921,
+        "service": "Acela",
+        "origin_code": "NLC",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:30:00-04:00",
+        "class": "Business",
+        "price_usd": 26
+    },
+    {
+        "train_number": 823,
+        "service": "Northeast Regional",
+        "origin_code": "NLC",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 13
+    },
+    {
+        "train_number": 831,
+        "service": "Northeast Regional",
+        "origin_code": "NHV",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:25:00-04:00",
+        "class": "Coach",
+        "price_usd": 11
+    },
+    {
+        "train_number": 931,
+        "service": "Acela",
+        "origin_code": "NHV",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:23:00-04:00",
+        "class": "Business",
+        "price_usd": 21
+    },
+    {
+        "train_number": 833,
+        "service": "Northeast Regional",
+        "origin_code": "NHV",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:25:00-04:00",
+        "class": "Coach",
+        "price_usd": 11
+    },
+    {
+        "train_number": 841,
+        "service": "Northeast Regional",
+        "origin_code": "STM",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:55:00-04:00",
+        "class": "Coach",
+        "price_usd": 22
+    },
+    {
+        "train_number": 941,
+        "service": "Acela",
+        "origin_code": "STM",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:46:00-04:00",
+        "class": "Business",
+        "price_usd": 45
+    },
+    {
+        "train_number": 843,
+        "service": "Northeast Regional",
+        "origin_code": "STM",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:55:00-04:00",
+        "class": "Coach",
+        "price_usd": 22
+    },
+    {
+        "train_number": 851,
+        "service": "Northeast Regional",
+        "origin_code": "NYP",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T09:15:00-04:00",
+        "class": "Coach",
+        "price_usd": 27
+    },
+    {
+        "train_number": 951,
+        "service": "Acela",
+        "origin_code": "NYP",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T13:04:00-04:00",
+        "class": "Business",
+        "price_usd": 56
+    },
+    {
+        "train_number": 853,
+        "service": "Northeast Regional",
+        "origin_code": "NYP",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T17:15:00-04:00",
+        "class": "Coach",
+        "price_usd": 27
+    },
+    {
+        "train_number": 861,
+        "service": "Northeast Regional",
+        "origin_code": "PHL",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T09:20:00-04:00",
+        "class": "Coach",
+        "price_usd": 29
+    },
+    {
+        "train_number": 961,
+        "service": "Acela",
+        "origin_code": "PHL",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T13:13:00-04:00",
+        "class": "Business",
+        "price_usd": 52
+    },
+    {
+        "train_number": 863,
+        "service": "Northeast Regional",
+        "origin_code": "PHL",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T17:20:00-04:00",
+        "class": "Coach",
+        "price_usd": 29
+    },
+    {
+        "train_number": 871,
+        "service": "Northeast Regional",
+        "origin_code": "BAL",
+        "destination_code": "WAS",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 15
+    },
+    {
+        "train_number": 971,
+        "service": "Acela",
+        "origin_code": "BAL",
+        "destination_code": "WAS",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:30:00-04:00",
+        "class": "Business",
+        "price_usd": 32
+    },
+    {
+        "train_number": 873,
+        "service": "Northeast Regional",
+        "origin_code": "BAL",
+        "destination_code": "WAS",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 15
+    },
+    {
+        "train_number": 802,
+        "service": "Northeast Regional",
+        "origin_code": "WAS",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 15
+    },
+    {
+        "train_number": 902,
+        "service": "Acela",
+        "origin_code": "WAS",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:30:00-04:00",
+        "class": "Business",
+        "price_usd": 32
+    },
+    {
+        "train_number": 804,
+        "service": "Northeast Regional",
+        "origin_code": "WAS",
+        "destination_code": "BAL",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 15
+    },
+    {
+        "train_number": 812,
+        "service": "Northeast Regional",
+        "origin_code": "BAL",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T09:20:00-04:00",
+        "class": "Coach",
+        "price_usd": 29
+    },
+    {
+        "train_number": 912,
+        "service": "Acela",
+        "origin_code": "BAL",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T13:13:00-04:00",
+        "class": "Business",
+        "price_usd": 52
+    },
+    {
+        "train_number": 814,
+        "service": "Northeast Regional",
+        "origin_code": "BAL",
+        "destination_code": "PHL",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T17:20:00-04:00",
+        "class": "Coach",
+        "price_usd": 29
+    },
+    {
+        "train_number": 822,
+        "service": "Northeast Regional",
+        "origin_code": "PHL",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T09:15:00-04:00",
+        "class": "Coach",
+        "price_usd": 27
+    },
+    {
+        "train_number": 922,
+        "service": "Acela",
+        "origin_code": "PHL",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T13:04:00-04:00",
+        "class": "Business",
+        "price_usd": 56
+    },
+    {
+        "train_number": 824,
+        "service": "Northeast Regional",
+        "origin_code": "PHL",
+        "destination_code": "NYP",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T17:15:00-04:00",
+        "class": "Coach",
+        "price_usd": 27
+    },
+    {
+        "train_number": 832,
+        "service": "Northeast Regional",
+        "origin_code": "NYP",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:55:00-04:00",
+        "class": "Coach",
+        "price_usd": 22
+    },
+    {
+        "train_number": 932,
+        "service": "Acela",
+        "origin_code": "NYP",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:46:00-04:00",
+        "class": "Business",
+        "price_usd": 45
+    },
+    {
+        "train_number": 834,
+        "service": "Northeast Regional",
+        "origin_code": "NYP",
+        "destination_code": "STM",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:55:00-04:00",
+        "class": "Coach",
+        "price_usd": 22
+    },
+    {
+        "train_number": 842,
+        "service": "Northeast Regional",
+        "origin_code": "STM",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:25:00-04:00",
+        "class": "Coach",
+        "price_usd": 11
+    },
+    {
+        "train_number": 942,
+        "service": "Acela",
+        "origin_code": "STM",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:23:00-04:00",
+        "class": "Business",
+        "price_usd": 21
+    },
+    {
+        "train_number": 844,
+        "service": "Northeast Regional",
+        "origin_code": "STM",
+        "destination_code": "NHV",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:25:00-04:00",
+        "class": "Coach",
+        "price_usd": 11
+    },
+    {
+        "train_number": 852,
+        "service": "Northeast Regional",
+        "origin_code": "NHV",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 13
+    },
+    {
+        "train_number": 952,
+        "service": "Acela",
+        "origin_code": "NHV",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:30:00-04:00",
+        "class": "Business",
+        "price_usd": 26
+    },
+    {
+        "train_number": 854,
+        "service": "Northeast Regional",
+        "origin_code": "NHV",
+        "destination_code": "NLC",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 13
+    },
+    {
+        "train_number": 862,
+        "service": "Northeast Regional",
+        "origin_code": "NLC",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:40:00-04:00",
+        "class": "Coach",
+        "price_usd": 17
+    },
+    {
+        "train_number": 962,
+        "service": "Acela",
+        "origin_code": "NLC",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:34:00-04:00",
+        "class": "Business",
+        "price_usd": 32
+    },
+    {
+        "train_number": 864,
+        "service": "Northeast Regional",
+        "origin_code": "NLC",
+        "destination_code": "PVD",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:40:00-04:00",
+        "class": "Coach",
+        "price_usd": 17
+    },
+    {
+        "train_number": 872,
+        "service": "Northeast Regional",
+        "origin_code": "PVD",
+        "destination_code": "BOS",
+        "departure_time": "2025-07-03T08:00:00-04:00",
+        "arrival_time": "2025-07-03T08:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 19
+    },
+    {
+        "train_number": 972,
+        "service": "Acela",
+        "origin_code": "PVD",
+        "destination_code": "BOS",
+        "departure_time": "2025-07-03T12:00:00-04:00",
+        "arrival_time": "2025-07-03T12:28:00-04:00",
+        "class": "Business",
+        "price_usd": 39
+    },
+    {
+        "train_number": 874,
+        "service": "Northeast Regional",
+        "origin_code": "PVD",
+        "destination_code": "BOS",
+        "departure_time": "2025-07-03T16:00:00-04:00",
+        "arrival_time": "2025-07-03T16:35:00-04:00",
+        "class": "Coach",
+        "price_usd": 19
+    }
+]

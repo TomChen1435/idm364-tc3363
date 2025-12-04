@@ -1,73 +1,57 @@
 # idm364-tc3363
 
-This is a website that mimics selling discounted plane tickets.
+This is a website that mimics selling discounted Amtrak tickets on the Northeast Corridor.
 
 ## Basic Content Rules
 
-- We sell coach class tickets for nonstop flights only.
-- No in-site refunds or changes after purchase.
-- All seats will be randomly assigned.
-- Frequent-flyer programs do not apply to the tickets sold on this website.
-- We do not sell travel insurance.
-- No in-flight entertainment or other amenities information.
+1. Service Coverage
 
-## Plane Ticket Structure
+- This site sells tickets only for Acela, Northeast Regional, and Keystone Service trains along the Northeast Corridor main line.
+- Trips to or from the New Haven–Springfield corridor or the Philadelphia–Harrisburg corridor are not available.
 
-- Disclaimer
-    - "*Airlines may change schedules, aircraft, baggage rules, or operating carriers after booking.* Schedule, aircraft, baggage policies, and operating carrier are subject to change by the airline after ticketing. This website is not responsible for airline-initiated changes. For reimbursement or support, contact the operating carrier."
-- Origin & destination
-    - Banner photographs (P)
-    - Metropolitan area (P)
-    - IATA codes (P)
-        - Airport full names
-    - Terminals (TBD?)
-- Departure & arrival times
-    - Time zones (P)
-    - Duration (P)
-    - Day change on arrival? (P/icon)
-    - Red-eye flight? (P/icon)
-- Carrier
-    - Operating carrier (P)
-        - Alliance membership
-        - "Operated by" (P)
-    - Marketing airlines & codeshare information (P/secondary)
-    - Flight numbers (P)
-    - Low historic on-time performance alert (P/footnote)
-    - Aircraft type (TBD?)
-- Baggage
-    - Personal item rules (P/icon)
-    - Carry-on allowance (P/icon)
-    - Checked baggage allowance included in the ticket (P/icon)
-    - Airport purchase allowed? (P/icon)
-    - "To purchase more checked baggage plans, please contact the operating carrier after your purchase."
-    - "For more baggage information, visit the operating carrier's website."
-- Fare
-    - Full fare (P)
-        - Base fare
-        - Fuel surcharge
-        - Airport taxes & fees
-        - Service fees
-        - Surcharges
-    - "Non-refundable. No changes allowed after purchase."
+2. Ticket Policy
 
-### Card layout
+- All tickets are non-refundable after purchase.
+- No changes or modifications can be made after purchase.
+- We do not sell any add-ons, including bike reservations or pet accommodations.
 
-- Destination photograph
-- Metropolitan areas connected by the flight
-- IATA codes of both airports
-- Departure & arrival times
-- Time zones for the origin and the destination
-- Duration
-- "+1" icon for day change on arrival
-- Red-eye alert
-- Operating carrier
-    - "Operated by"
-- Marketing airlines & codeshare information
-- Flight numbers
-- Low historic on-time performance alert
-- Icon set for baggage information
-    - Personal item rules
-    - Carry-on allowance
-    - Checked baggage allowance included in the ticket
-    - Airport purchase allowed?
-- Full fare
+3. Seating & Accessibility
+
+- Acela seat assignments will be sent by email with the digital ticket.
+- We cannot accommodate seating preferences on any service.
+- If you require accessibility assistance, please contact Amtrak directly and inform train crew upon boarding.
+
+4. Train Features & Variability
+
+- Some trains may not offer a quiet car or a café car.
+- Amenities (Wi-Fi, outlets, etc.) vary by service and train.
+
+5. Important Disclaimer
+
+- Amtrak may make changes to your schedule, equipment, or assigned seat.
+- This website is not responsible for Amtrak-initiated changes.
+
+## Important Notes
+
+Before you purchase, please confirm the following:
+
+* Tickets are non-refundable and cannot be changed.
+* Seat preferences cannot be accommodated (Acela seats assigned via email).
+* If you require accessibility assistance, please contact Amtrak directly and inform train crew upon boarding.
+* Amtrak may change schedules or equipment; this site is not responsible for Amtrak-initiated changes.
+
+I understand and agree on these terms.
+
+## Ticket Structure
+
+- Trip information
+    - Service type + train number
+    - Departure & destination stations
+    - Departure & arrival times
+    - Travel duration
+- Seat class
+- Ticket price
+
+### Other Important Limitations
+
+* Bike, pet, and other add-ons cannot be purchased on this site.

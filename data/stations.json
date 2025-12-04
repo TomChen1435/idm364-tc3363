@@ -1,0 +1,219 @@
+[
+    {
+        "state": "MA",
+        "city": "Boston",
+        "station": "South Station",
+        "station_code": "BOS",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "MA",
+        "city": "Boston",
+        "station": "Back Bay",
+        "station_code": "BBY",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "MA",
+        "city": "Westwood",
+        "station": "Route 128",
+        "station_code": "RTE",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "RI",
+        "city": "Providence",
+        "station": "Providence",
+        "station_code": "PVD",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "RI",
+        "city": "West Kingston",
+        "station": "Kingston",
+        "station_code": "KIN",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "RI",
+        "city": "Westerly",
+        "station": "Westerly",
+        "station_code": "WLY",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "Stonington",
+        "station": "Mystic",
+        "station_code": "MYS",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "New London",
+        "station": "Union Station",
+        "station_code": "NLC",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "Old Saybrook",
+        "station": "Old Saybrook",
+        "station_code": "OSB",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "New Haven",
+        "station": "State Street",
+        "station_code": "STS",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "New Haven",
+        "station": "Union Station",
+        "station_code": "NHV",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "Bridgeport",
+        "station": "Bridgeport",
+        "station_code": "BRP",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "CT",
+        "city": "Stamford",
+        "station": "Stamford Transportation Center",
+        "station_code": "STM",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "NY",
+        "city": "New Rochelle",
+        "station": "New Rochelle",
+        "station_code": "NRO",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "NY",
+        "city": "New York",
+        "station": "Penn Station",
+        "station_code": "NYP",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "Newark",
+        "station": "Penn Station",
+        "station_code": "NWK",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "Newark",
+        "station": "Newark Airport",
+        "station_code": "EWR",
+        "amtrak_service": "Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "Woodbridge",
+        "station": "Metropark",
+        "station_code": "MET",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "New Brunswick",
+        "station": "New Brunswick",
+        "station_code": "NBK",
+        "amtrak_service": "Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "West Windsor",
+        "station": "Princeton Junction",
+        "station_code": "PJC",
+        "amtrak_service": "Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "NJ",
+        "city": "Trenton",
+        "station": "Trenton Transit Center",
+        "station_code": "TRE",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "PA",
+        "city": "Cornwells Heights",
+        "station": "Cornwells Heights",
+        "station_code": "CWH",
+        "amtrak_service": "Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "PA",
+        "city": "Philadelphia",
+        "station": "North Philadelphia",
+        "station_code": "PHN",
+        "amtrak_service": "Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "PA",
+        "city": "Philadelphia",
+        "station": "30th Street",
+        "station_code": "PHL",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional_DIVIDE_Keystone Service"
+    },
+    {
+        "state": "DE",
+        "city": "Wilmington",
+        "station": "Wilmington",
+        "station_code": "WIL",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "DE",
+        "city": "Newark",
+        "station": "Newark",
+        "station_code": "NRK",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "MD",
+        "city": "Aberdeen",
+        "station": "Aberdeen",
+        "station_code": "ABE",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "MD",
+        "city": "Baltimore",
+        "station": "Penn Station",
+        "station_code": "BAL",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "MD",
+        "city": "Linthicum",
+        "station": "BWI Airport",
+        "station_code": "BWI",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    },
+    {
+        "state": "MD",
+        "city": "New Carrollton",
+        "station": "New Carrollton",
+        "station_code": "NCR",
+        "amtrak_service": "Northeast Regional"
+    },
+    {
+        "state": "DC",
+        "city": "Washington",
+        "station": "Union Station",
+        "station_code": "WAS",
+        "amtrak_service": "Acela_DIVIDE_Northeast Regional"
+    }
+]
