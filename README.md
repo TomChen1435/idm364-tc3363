@@ -40,7 +40,7 @@ Before you purchase, please confirm the following:
 * If you require accessibility assistance, please contact Amtrak directly and inform train crew upon boarding.
 * Amtrak may change schedules or equipment; this site is not responsible for Amtrak-initiated changes.
 
-I understand and agree on these terms.
+I understand and agree with these terms.
 
 ## Ticket Structure
 
