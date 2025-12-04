@@ -1,0 +1,99 @@
+@import url('./reset.css');
+
+* {
+    box-sizing: border-box;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.ttf') format('truetype');
+    font-style: normal;
+}
+
+:root {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    text-wrap: pretty;
+}
+
+h1, h2 {
+    font-weight: 550;
+    line-height: 120%;
+}
+
+p, li {
+    font-weight: 400;
+    line-height: 145%;
+}
+
+/* Color */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --apple-red: rgb(255,56,60);
+        --apple-blue: rgb(0,136,255);
+        --apple-indigo: rgb(97,85,245);
+
+        --ios-gray-1: rgb(142,142,147);
+        --ios-gray-5: rgb(229,229,234);
+        --ios-gray-6: rgb(242,242,247);
+        --ios-gray-6-alt: rgb(28,28,30);
+
+        --black: oklab(0.01 0 0);
+        --white: oklab(0.99 0 0);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --apple-red: rgb(255,66,69);
+        --apple-blue: rgb(0,145,255);
+        --apple-indigo: rgb(109,124,255);
+
+        --ios-gray-1: rgb(142,142,147);
+        --ios-gray-5: rgb(44,44,46);
+        --ios-gray-6: rgb(28,28,30);
+        --ios-gray-6-alt: rgb(242,242,247);
+
+        --black: oklab(0.99 0 0);
+        --white: oklab(0.01 0 0);
+    }
+}
+
+/* Constraint Variables */
+
+:root {
+    --gap4: 0.25rem;
+    --gap8: 0.5rem;
+    --gap12: 0.75rem;
+    --gap16: 1rem;
+    --gap24: 1.5rem;
+    --gap36: 2.25rem;
+    --gap48: 3rem;
+}
+
+/* Fundamentals */
+
+html {
+    width: 100%;
+}
+
+body {
+    align-items: center;
+    background-color: var(--ios-gray-6);
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    min-width: 20rem;
+    width: 100%;
+}
+
+/* Transition */
+
+body, body * {
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
