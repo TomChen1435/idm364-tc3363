@@ -2,6 +2,37 @@
 
 This is a website that mimics selling discounted Amtrak tickets on the Northeast Corridor.
 
+## Site Structure
+
+- Header
+    - Home button
+        - Icon
+        - Title
+    - Cart button
+    - Help button
+- Footer
+    - Copyright info
+
+- Home
+    - Greeting
+    - Full card grid
+- Search
+    - Prompt
+    - Input
+    - Search button
+- Search results
+    - Prompt
+    - Search again button
+    - Results card grid
+- Details
+    - All ticket details
+    - Bike rack reservation
+    - Pet seat reservation
+    - Counter for each
+    - Total
+- Help
+    - Rules display
+
 ## Basic Content Rules
 
 1. Service Coverage
@@ -13,7 +44,7 @@ This is a website that mimics selling discounted Amtrak tickets on the Northeast
 
 - All tickets are non-refundable after purchase.
 - No changes or modifications can be made after purchase.
-- We do not sell any add-ons, including bike reservations or pet accommodations.
+- We do not sell any add-ons, except bike reservations and pet accommodations.
 
 3. Seating & Accessibility
 
@@ -51,7 +82,3 @@ I understand and agree with these terms.
     - Travel duration
 - Seat class
 - Ticket price
-
-### Other Important Limitations
-
-* Bike, pet, and other add-ons cannot be purchased on this site.
