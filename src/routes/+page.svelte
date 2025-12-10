@@ -5,45 +5,56 @@
     
     const { data } = $props();
     const { stations, tickets } = data;
-
-    $inspect(stations);
-    $inspect(tickets);
 </script>
 
 <Header />
 
-{#each stations as station}
-<p>{station.name}</p>
-{/each}
+<main>
+    {#each tickets as ticket}
+        <Card 
+            service = {ticket.service}
+            train_number = {ticket.train_number}
 
-<!-- <main>
+            origin = {stations.find(station => {return station.station_code === ticket.origin_code})}
+            destination = {stations.find(station => {return station.station_code === ticket.destination_code})}
 
-    {#each data.data_set.tickets as t_info}
-        <a href="">
-            <Card 
-                service = {t_info.service}
-                train_number = {t_info.train_number}
-
-                origin_state = "PA"
-                origin_city = "Cornwells Heights"
-                origin_station = "Cornwells Heights"
-
-                destination_state = "PA"
-                destination_city = "Philadelphia"
-                destination_station = "North Philadelphia"
-
-                departure_time_8601 = {t_info.departure_time}
-                departure_time = "08:00"
-                arrival_time_8601 = {t_info.arrival_time}
-                arrival_time = "08:35"
-                duration = "0h 35min"
-
-                seat_class = {t_info.class}
-                price_usd = {t_info.price_usd}
-            />
-        </a>
+            departure_time_8601 = {ticket.departure_time}
+            arrival_time_8601 = {ticket.arrival_time}
+            
+            seat_class = {ticket.class}
+            price_usd = {ticket.price_usd}
+        />
     {/each}
-
-</main> -->
+</main>
 
 <Footer />
+
+<style>
+    main {
+        display: grid;
+        gap: var(--gap12);
+        justify-content: center;
+        justify-items: center;
+        max-width: 102.75rem;
+        padding: var(--gap12);
+        width: 100%;
+    }
+
+    @media (width < 36.25rem) {
+        main {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media (36.25rem <= width < 54rem) {
+        main {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (54rem <= width) {
+        main {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+</style>

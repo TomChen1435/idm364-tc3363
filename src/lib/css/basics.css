@@ -107,16 +107,6 @@ body, body * {
     transition-timing-function: ease-in-out;
 }
 
-/* Main */
-
-main {
-    display: grid;
-    gap: var(--gap12);
-    grid-template-columns: 1fr;
-    padding: var(--gap12);
-    width: 100%;
-}
-
 /* Header & Footer */
 
 header, footer {
@@ -131,5 +121,6 @@ header, footer {
 /* Elements */
 
 a {
+    cursor: pointer;
     text-decoration: none;
 }
