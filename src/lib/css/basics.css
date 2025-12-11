@@ -107,6 +107,16 @@ body, body * {
     transition-timing-function: ease-in-out;
 }
 
+/* Main */
+
+main {
+    display: grid;
+    gap: var(--gap12);
+    justify-content: center;
+    padding: var(--gap12);
+    width: 100%;
+}
+
 /* Header & Footer */
 
 header, footer {
@@ -115,8 +125,11 @@ header, footer {
     display: flex;
     flex-flow: row nowrap;
     padding: var(--gap8) var(--gap12);
+    position: sticky;
     width: 100%;
 }
+
+header {top: 0;}
 
 /* Elements */
 

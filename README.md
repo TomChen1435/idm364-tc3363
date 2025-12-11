@@ -9,29 +9,21 @@ This is a website that mimics selling discounted Amtrak tickets on the Northeast
         - Icon
         - Title
     - Cart button
-    - Help button
 - Footer
     - Copyright info
 
 - Home
-    - Greeting
     - Full card grid
-- Search
-    - Prompt
-    - Input
-    - Search button
-- Search results
-    - Prompt
-    - Search again button
-    - Results card grid
 - Details
     - All ticket details
     - Bike rack reservation
     - Pet seat reservation
     - Counter for each
     - Total
-- Help
-    - Rules display
+- Cart
+    - Items
+    - Total
+    - Submit button
 
 ## Basic Content Rules
 

@@ -31,13 +31,7 @@
 
 <style>
     main {
-        display: grid;
-        gap: var(--gap12);
-        justify-content: center;
-        justify-items: center;
         max-width: 102.75rem;
-        padding: var(--gap12);
-        width: 100%;
     }
 
     @media (width < 36.25rem) {

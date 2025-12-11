@@ -7,10 +7,10 @@
         const stringSnakeCase = stringLowerCase.replace(/\s/g, "_");
         return stringSnakeCase;
     }
-
     const service_snakecase = snakecase(service);
     const origin_snakecase = snakecase(origin.station);
 
+    // Create strings of 24-hour timestamps
     function timestamp(date8601) {
         const dateObject = new Date(date8601);
         const time24Hour = dateObject.toLocaleTimeString('en-US', {
@@ -21,15 +21,15 @@
         });
         return time24Hour
     }
-    
     const departure_time = timestamp(departure_time_8601);
     const arrival_time = timestamp(arrival_time_8601);
 
+    // Calculate trip durations
     const duration_ms = new Date(arrival_time_8601) - new Date(departure_time_8601);
     const duration_mins_raw = duration_ms / 1000 / 60;
     const duration_hours = Math.floor(duration_mins_raw / 60); 
     const duration_mins = Math.floor(duration_mins_raw % 60); 
-    let duration;
+    let duration = $state("");
     if (duration_hours === 0) {
         duration = `${duration_mins}min`;
     } else {
@@ -37,7 +37,7 @@
     }
 </script>
 
-<a class="card {service_snakecase} {origin_snakecase}" href="">
+<a class="card {service_snakecase} {origin_snakecase}" href="/details?train_number={train_number}">
     <h1 class="service">{service} <span class="train_number">#{train_number}</span></h1>
 
     <section class="station origin">

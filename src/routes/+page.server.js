@@ -16,14 +16,3 @@ export async function load() {
     }
 
 }
-
-// Archived function to load from a single form from the database
-// function load_single() {
-//     const { data, error } = await supabase.from('tickets').select('*')
-
-//     if (error) console.error('Error: ', error)
-//     else console.log('Data: ', data)
-
-//     return { tickets: data }
-// }
-    
