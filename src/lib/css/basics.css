@@ -110,9 +110,7 @@ body, body * {
 /* Main */
 
 main {
-    display: grid;
     gap: var(--gap12);
-    justify-content: center;
     padding: var(--gap12);
     width: 100%;
 }
@@ -136,4 +134,23 @@ header {top: 0;}
 a {
     cursor: pointer;
     text-decoration: none;
+}
+
+a.text-btn {
+    align-items: center;
+    background-color: var(--apple-blue);
+    border-radius: var(--gap12);
+    color: var(--white);
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.5rem;
+    font-weight: 550;
+    height: 3rem;
+    justify-content: center;
+    padding: 0 var(--gap16);
+    text-align: center;
+}
+
+a.text-btn:hover {
+    background-color: var(--apple-indigo);
 }

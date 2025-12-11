@@ -81,7 +81,7 @@
     a.card, section, div {
         display: flex;
         flex-flow: row nowrap;
-        width: 100%;
+        width: 100% !important;
     }
 
     div {
@@ -94,8 +94,9 @@
         background-color: var(--ios-gray-6-alt);
         flex-direction: column;
         gap: var(--gap8);
-        padding: var(--gap12) var(--gap8);
-        width: clamp(17rem, 100%, 33.25rem);
+        max-width: 33.25rem;
+        min-width: 17rem;
+        padding: var(--gap8);
     }
 
     h1.service {

@@ -31,6 +31,9 @@
 
 <style>
     main {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
         max-width: 102.75rem;
     }
 
