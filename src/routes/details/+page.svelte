@@ -73,6 +73,7 @@
     }
 
     legend {
+        color: var(--black);
         font-size: 1.25rem;
         font-weight: 400;
         line-height: 120%;
@@ -94,6 +95,7 @@
     }
 
     label {
+        color: var(--black);
         font-size: 1.375rem;
         font-weight: 550;
         line-height: 120%;
