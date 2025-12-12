@@ -20,10 +20,6 @@ This is a website that mimics selling discounted Amtrak tickets on the Northeast
     - Pet seat reservation
     - Counter for each
     - Total
-- Cart
-    - Items
-    - Total
-    - Submit button
 
 ## Basic Content Rules
 
