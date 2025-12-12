@@ -2,6 +2,7 @@
     import Header from '$lib/assets/Header.svelte';
     import Footer from '$lib/assets/Footer.svelte';
     import Card from '$lib/assets/Card.svelte';
+    import Quantity from '$lib/assets/Quantity.svelte';
     
     const { data } = $props();
     const { tickets, stations } = data;
@@ -29,7 +30,10 @@
         price_usd = {ticket.price_usd}
     />
 
-    <a href="/success" class="text-btn">Purchase Ticket</a>
+    <div class="final">
+        <Quantity />
+        <a href="/success" class="text-btn">Purchase Ticket</a>
+    </div>
 </main>
 
 <Footer />
@@ -42,5 +46,16 @@
         flex-flow: column nowrap;
         justify-content: center;
         justify-self: center;
+    }
+
+    div.final {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        gap: var(--gap8);
+        justify-content: center;
+        max-width: 33.25rem;
+        min-width: 17rem;
+        width: 100%;
     }
 </style>
