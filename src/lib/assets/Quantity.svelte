@@ -63,12 +63,12 @@
     }
 
     button.normal {
-        background-color: var(--apple-yellow);
+        background-color: var(--apple-blue);
         cursor: pointer;
     }
 
     button.normal:hover {
-        background-color: var(--apple-orange);
+        background-color: var(--apple-indigo);
     }
 
     button.disabled {
@@ -76,7 +76,7 @@
     }
 
     button > svg {
-        fill: var(--black0);
+        fill: var(--white);
         height: 2.25rem;
         width: 2.25rem;
     }

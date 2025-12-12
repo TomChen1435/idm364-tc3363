@@ -32,7 +32,7 @@
 
     <div class="final">
         <Quantity />
-        <a href="/success" class="text-btn">Purchase Ticket</a>
+        <a href="/success" class="text-btn">Buy Now</a>
     </div>
 </main>
 
@@ -51,25 +51,9 @@
     div.final {
         align-items: center;
         display: flex;
-        flex-wrap: nowrap;
-        gap: var(--gap16);
+        flex-flow: row nowrap;
+        justify-content: space-between;
         max-width: 33.25rem;
         width: 100%;
-    }
-
-    @media (width < 25rem) {
-        div.final {
-            flex-direction: column;
-            gap: var(--gap8);
-            justify-content: center;
-        }
-    }
-
-    @media (25rem <= width) {
-        div.final {
-            flex-direction: row;
-            gap: var(--gap8);
-            justify-content: space-between;
-        }
     }
 </style>
