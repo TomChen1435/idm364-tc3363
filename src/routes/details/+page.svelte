@@ -51,11 +51,25 @@
     div.final {
         align-items: center;
         display: flex;
-        flex-flow: row wrap;
-        gap: var(--gap8);
-        justify-content: center;
+        flex-wrap: nowrap;
+        gap: var(--gap16);
         max-width: 33.25rem;
-        min-width: 17rem;
         width: 100%;
+    }
+
+    @media (width < 25rem) {
+        div.final {
+            flex-direction: column;
+            gap: var(--gap8);
+            justify-content: center;
+        }
+    }
+
+    @media (25rem <= width) {
+        div.final {
+            flex-direction: row;
+            gap: var(--gap8);
+            justify-content: space-between;
+        }
     }
 </style>
